@@ -1,0 +1,13 @@
+[package]
+name = "tc-bindings"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ruslan Valiev"]
+
+[dependencies]
+tc-bindgen-sys = { path = "tc-bindgen-sys" }
+libc = "0.2"
+encoding = "0.2.33"
+
+[profile.release]
+panic = "unwind" # Change from "abort" to "unwind" if possible.

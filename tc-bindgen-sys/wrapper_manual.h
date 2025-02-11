@@ -1,0 +1,83 @@
+#include <eq.h>
+#include <unidefs.h>
+#include <error_datatypes.h>
+#include <error_c_cxx_interface.h>
+#include <error_decode.h>
+#include <error_protect.h>
+#include <error.h>
+#include <msvcpragmas.h>
+#include <ug_va_copy.h>
+#include <ugmath_datatypes.h>
+#include <unidefs.h>
+#include <common/emh_const.h>
+#include <adsfoundation/adsfoundation_errors.h>
+#include <common/library_indicators.h>
+//#include <adsfoundation/libadsfoundation_undef.h>
+#include <adsfoundation/adsfoundation.h>
+#include <ae/ae_errors.h>
+#include <fclasses/tc_stdlib.h>
+//#include <ae/libae_undef.h>
+#include <ae/ae_types.h>
+#include <fclasses/tc_stdio.h>
+//#include <fclasses/libfclasses_undef.h>
+#include <fclasses/tc_basic.h>
+#include <pom/pom/pom_typedefs.h>
+//#include <pom/pom/libpom_undef.h>
+#include <pom/enq/old_on_new.h>
+#include <pom/pom/pom_mapping.h>
+#include <pom/pom/pom_errors.h>
+#include <pom/pom/pom_tokens.h>
+#include <pom/pom/pom_macros.h>
+#include <pom/pom/pom.h>
+#include <base_utils/Mem.h>
+#include <common/basic_definitions.h>
+#include <tc/tc_startup.h>
+#include <tccore/workspaceobject.h>
+#include <ae/dataset.h>
+#include <tc/tc_util.h>
+#include <ae/datasettype.h>
+#include <ae/namedrevisionanchor.h>
+#include <ae/revisionanchor.h>
+#include <ae/tool.h>
+#include <ae/ae.h>
+#include <ae/dataset_msg.h>
+#include <ae/shell_util.h>
+#include <ae/iman_shell_util.h>
+#include <ae/nxsm_errors.h>
+#include <ae/nxsm.h>
+#include <ae/shell_util2.h>
+#include <ae/ugsm_errors.h>
+#include <ae/ugsm.h>
+#include <ae/vm_errors.h>
+#include <ai/libai_exports.h>
+#include <ai/libai_undef.h>
+#include <ai/aiws_errors.h>
+#include <ai/aiws_extensions.h>
+#include <pie/pie.h>
+#include <ai/appinterface.h>
+#include <ai/aiws.h>
+#include <ai/appinterface_errors.h>
+#include <ai/idc.h>
+#include <tc/emh.h>
+#include <ai/sample_err.h>
+#include <ai/sample_inh.h>
+#include <ai/udatarw.h>
+// #include <aie/aie_eps.h> Not work
+#include <aie/aie_errors.h>
+#include <appr/appr_errors.h>
+#include <appr/appr.h>
+#include <aps0apscore/aps0apscore_errors.h>
+#include <archive/objio_ar_errors.h>
+#include <archive/objio_errors.h>
+#include <asbasmalignment/asbasmalignment_errors.h>
+
+
+
+
+
+
+#include <ai/sample_err.h>
+#include <base_utils/Mem.h>
+#include <tc/preferences.h>
+#include <tcinit/tcinit.h>
+#include <stdio.h>

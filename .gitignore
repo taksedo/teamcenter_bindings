@@ -1,0 +1,8 @@
+/target
+/teamcenter_handlers
+/tc-bindgen-sys/include
+/tc-bindgen-sys/include_cpp
+/tc-bindgen-sys/lib
+/tc-bindgen-sys/target
+.idea
+Cargo.lock
